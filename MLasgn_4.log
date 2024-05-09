@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  9 MAY 2024 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  9 MAY 2024 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -758,8 +758,7 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@output=\toks49
 \AP@partial=\box88
 \AP@footins=\box89
-))
-No file MLasgn_4.aux.
+)) (./MLasgn_4.aux)
 \openout1 = `MLasgn_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -772,7 +771,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 15.
-(d:/Texlive/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+ (d:/Texlive/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 15.
@@ -829,14 +828,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 15.
+(./MLasgn_4.out) (./MLasgn_4.out)
 \@outlinefile=\write4
 \openout4 = `MLasgn_4.out'.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-OsF on input line 17.
-(d:/Texlive/texlive/2023/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-OsF.fd
+ (d:/Texlive/texlive/2023/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-OsF.fd
 File: T1LinuxLibertineT-OsF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-OsF.
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
@@ -861,21 +858,14 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `MLasgn_4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MLasgn_4.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7634DAB0C226CEBB9D7BCA63A9BF40FC;169.
+Package rerunfilecheck Info: File `MLasgn_4.out' has not changed.
+(rerunfilecheck)             Checksum: 7634DAB0C226CEBB9D7BCA63A9BF40FC;169.
  ) 
 Here is how much of TeX's memory you used:
- 31518 strings out of 474794
- 654394 string characters out of 5758529
+ 31527 strings out of 474794
+ 654524 string characters out of 5758529
  1927842 words of memory out of 5000000
- 53158 multiletter control sequences out of 15000+600000
+ 53161 multiletter control sequences out of 15000+600000
  628600 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,13n,121p,541b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
