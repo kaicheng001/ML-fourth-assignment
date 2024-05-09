@@ -17,8 +17,79 @@
 \maketitle
 
 % \startsolution[print]
+%第一题SVM
+\problem{Support Vector Machine }
 
-\problem{Multi-layer Perception}
+%第一题第一问
+\subsection{}
+
+
+%第一题第一问（a）
+\subsubsection{(a)}
+Generalized Lagrangian function：
+\begin{equation}\begin{aligned} & L(\omega,b,\epsilon,\alpha,\mu)=\frac12||\omega||^2+C\sum_{i=1}^m\epsilon_i,+\sum_{i=1}^m
+               \alpha_i(1-\epsilon_i-y_i(\omega^Tx_i+b))-\sum_{i=1}^m\mu_i\epsilon_i\end{aligned}
+\end{equation}
+The dual problem of the original function is
+\begin{equation}\max_{\alpha\geq0,\mu\geq0}\min_{\omega,b,\epsilon}L(\omega,b,\epsilon,\alpha,\mu)\end{equation}
+
+Find the partial derivative :
+\begin{equation}
+  \nabla_{w}L(w,b,\epsilon,\alpha,\mu)=w-\sum_{i=1}^{N}\alpha_{i}y_{i}x_{i}=0 
+\end{equation}
+
+\begin{equation}
+  \nabla_{b}L(w,b,\epsilon,\alpha,\mu)=-\sum_{i=1}^{N}\alpha_{i}y_{i}=0
+\end{equation}
+
+\begin{equation}
+  \nabla_{\epsilon_{i}}L(w,b,\epsilon,\alpha,\mu)=C-\alpha_{i}-\mu_{i}=0
+\end{equation}
+
+Solutions have to:
+\begin{equation}\left.\left\{\begin{aligned}w&=\sum_{i=1}^N\alpha_iy_ix_i\\
+  \sum_{i=1}^N\alpha_iy_i&=0\\
+  C-\alpha_i-\mu_i&=0\end{aligned}\right.\right.
+\end{equation}
+Bringing in $L(w,b,\epsilon_i,\alpha,\mu)$ gets:
+
+\begin{equation}L(w,b,\epsilon_i,\alpha_i,\mu_i)=-\frac12\sum_{i=1}^N
+  \sum_{j=1}^N\alpha_i\alpha_ju_iy_j\left(x_i\cdot x_j\right)+\sum_{i=1}^N\alpha_i
+\end{equation}
+
+Next, we originally found the maximum value of the above equation. 
+If we add a negative sign to the entire equation, we can transform it into finding its minimum value, that is,
+\begin{equation}\min_\alpha\frac12\sum_{i=1}^N\sum_{j=1}^N\alpha_i\alpha_ju_iy_j\left(x_i\right.\cdot x_j)-\sum_{i=1}^N\alpha \end{equation}
+
+After getting the objective function, sort out the constraints.
+First of all, there is a partial derivative solution $\sum_{i=1}^N\alpha_iy_i=0$,;\\
+Secondly, the Lagrange multiplier is greater than or equal to 0, that is $\alpha, \mu >=0$, 
+when seeking partial derivatives, we get $C-\alpha_i-\mu_i=0$;\\
+Finally, comprehensively we get $0\leq\alpha_i\leq C$.
+
+So the dual problem is:
+
+
+
+%第一题第一问（b）
+\subsubsection{(b)}
+
+
+%第一题第二问
+\subsection{}
+%第一题第二问（a）
+\subsubsection{(a)}
+
+The corresponding mapping function is:
+\begin{equation}\phi(x)=(x_1^2,\sqrt{2}x_1x_2,x_2^2)\end{equation}
+
+
+%第一题第二问（b）
+\subsubsection{(b)}
+
+%第一题第二问(c)
+\subsubsection{(c)}
+
 
 
 \vspace{2mm}
