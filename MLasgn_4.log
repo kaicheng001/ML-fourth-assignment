@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  10 MAY 2024 17:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  26 MAY 2024 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,26 +855,40 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 Missing character: There is no ： ("FF1A) in font ecrm1000!
 [1
 
-]
+] (d:/Texlive/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 157.
+ (d:/Texlive/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 158.
+ [2]
+Missing character: There is no φ ("3C6) in font ec-lmtt9!
+File: 1.2.b1.png Graphic file (type bmp)
+<1.2.b1.png>
+File: 1.2.b2.png Graphic file (type bmp)
+<1.2.b2.png>
 File: 1.2.c1.png Graphic file (type bmp)
 <1.2.c1.png>
 File: 1.2.c2.png Graphic file (type bmp)
 <1.2.c2.png>
- [2] [3] (./MLasgn_4.aux)
+[3] [4] [5] [6] [7] [8] (./MLasgn_4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `MLasgn_4.out' has not changed.
-(rerunfilecheck)             Checksum: DD10A94A8B26FDF70D9DB48C41DB29B2;692.
+(rerunfilecheck)             Checksum: CC74971AFC819298F6D7324119C1F7F8;1672.
  ) 
 Here is how much of TeX's memory you used:
- 31584 strings out of 474794
- 655491 string characters out of 5758529
- 1943842 words of memory out of 5000000
- 53210 multiletter control sequences out of 15000+600000
- 640737 words of font info for 96 fonts, out of 8000000 for 9000
+ 31876 strings out of 474794
+ 659079 string characters out of 5758529
+ 1989842 words of memory out of 5000000
+ 53482 multiletter control sequences out of 15000+600000
+ 645693 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 117i,13n,121p,541b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,13n,121p,541b,1624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MLasgn_4.pdf (3 pages).
+Output written on MLasgn_4.pdf (8 pages).
